@@ -4,8 +4,8 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-start-rgb: 100,100,110;
+  --background-end-rgb: 125, 125, 150;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -16,7 +16,7 @@
   }
 }
 
-body {
+/* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -24,6 +24,18 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+} */
+
+* {
+  scroll-behavior: smooth;
+  outline: none !important;
+}
+
+body {
+  color: #fff;
+  background: linear-gradient(45deg, #0c0c11 0 10%, #00054b 35% 45%, #0c0c11);
+  overflow: hidden;
+  /* min-width: 250vw; */
 }
 
 @layer utilities {

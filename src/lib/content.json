@@ -1,0 +1,29 @@
+{
+    "questions": [
+        {
+            "name": "name",
+            "type": "input",
+            "description": "What's your name or username ?"
+        },
+        {
+            "name": "contact",
+            "type": "input",
+            "description": "Email or way to contact you"
+        },
+        {
+            "name": "presentation",
+            "type": "textarea",
+            "description": "Give us a little presentation of yourself, carte blanche."
+        },
+        {
+            "name": "subject",
+            "type": "textarea",
+            "description": "What would you like to talk about ?"
+        },
+        {
+            "name": "message",
+            "type": "textarea",
+            "description": "Something else ?"
+        }
+    ]
+}
